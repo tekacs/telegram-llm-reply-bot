@@ -1,0 +1,21 @@
+{
+  "name": "msnbot",
+  "type": "module",
+  "module": "src/index.ts",
+  "dependencies": {
+    "esbuild": "^0.15.10",
+    "fluture": "^14.0.0",
+    "node-dev": "^7.4.3",
+    "openai": "^3.0.0",
+    "prebuilt-tdlib": "^0.1008000.0",
+    "prettier": "^2.7.1",
+    "tdl": "^7.1.0",
+    "tdl-tdlib-addon": "^1.2.1",
+    "tdlib-types": "^0.1001008.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "dev": "node-dev src/index.ts"
+  }
+}
